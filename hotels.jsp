@@ -36,7 +36,7 @@
 						</tr>
 				<tr>
 				<td style="text-align: right;"><label>Enter Room number :</label></td>
-				<td><input type="text" name="roomNumber" id="roomNumber"></td>
+				<td><input type="text" name="enteredRoomNumber" id="enteredRoomNumber"></td>
 				</tr>
 						<tr style="height: 23px;"></tr>
 						<tr style="text-align: center;">
