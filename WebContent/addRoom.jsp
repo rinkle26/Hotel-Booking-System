@@ -28,7 +28,30 @@
 		<div class="left_panel"></div>
 
 		<div class="center_panel">
-			
+			<div style="padding-left: 18%; width: fit-content;">
+				<form id="form_add_room" name="addRoomform" action="AddRoom" method="post" onsubmit="return addValidate()">
+					<br> ${message} <br> ${successMessage}<br>
+					<table>
+						<tr>
+							<td style="text-align: right;"><label>Number of rooms :</label></td>
+							<td><input type="text" name="NumberOfRooms" id="NumberOfRooms"></td>
+						</tr>
+						<tr>
+							<td style="text-align: right;"><label>Room Number :</label></td>
+							<td><input type="text" name="RoomNumber" id="RoomNumber"></td>
+						</tr>
+						<tr>
+							<td style="text-align: right;"><label>Room type :</label></td>
+							<td><input type="text" name="RoomType" id="RoomType"></td>
+						</tr>
+						<tr style="height: 23px;"></tr>
+						<tr style="text-align: center;">
+							<td colspan="2"><input type="submit" name="submit"
+								value="Add"></td>
+						</tr>
+					</table>
+				</form>
+			</div>
 		</div>
 
 		<div class="right_panel"></div>

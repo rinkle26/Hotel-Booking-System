@@ -33,7 +33,7 @@
 					<td><a href="#">My booking</a></td>
 				</tr>
 				<tr>
-					<td><a href="#">Add room</a></td>
+					<td><a href="addRoom.jsp">Add room</a></td>
 				</tr>
 				<tr>
 					<td><a href="#">Hotel Details</a></td>
