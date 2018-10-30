@@ -66,5 +66,20 @@ public class RoomDaoImpl implements RoomDao {
 		}		
 		return status;
 	}
+	
+	@Override
+	public int CancelRoom(Room r) {
+		int status = 0;
+		try{
+			conn = db.getConnection();
+			ps =conn.prepareStatement("UPDATE room SET RoomAvailability = 0 WHERE roomNumber = ?");
+			ps.setString(1, r.getRoomNumber());			
+			int rs = ps.executeUpdate();
+			conn.close();
+		}catch(Exception e){
+			System.out.println(e);
+		}		
+		return status;
+	}
 
 }

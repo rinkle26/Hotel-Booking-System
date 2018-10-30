@@ -30,6 +30,12 @@
 					<td><a href="hotels.jsp">Book room</a></td>
 				</tr>
 				<tr>
+					<td><a href="cancel.jsp">Cancel room</a></td>				
+				</tr>
+				<tr>
+					<td><a href="editroom.jsp">Edit room</a></td>				
+				</tr>				
+				<tr>
 					<td><a href="#">My booking</a></td>
 				</tr>
 				<tr>

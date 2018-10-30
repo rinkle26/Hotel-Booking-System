@@ -13,7 +13,7 @@ public interface RoomDao {
 	 */
 	public int addNewRoom(Room r);
 	public int BookRoom(Room r);
-	
+	public int CancelRoom(Room r);
 	/*
 	 * Retrieve the Customer object from the database
 	 */

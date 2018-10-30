@@ -8,7 +8,7 @@
 </head>
 <body style="background-color: aqua;">
 	<div align="right">
-		<a href="login.jsp">Log in</a>
+		<a id="js-link-box-en" href="login.jsp">Log in</a>
 	</div>
 	<div
 		style="width: 400px; height: 100px; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; margin: auto;">
