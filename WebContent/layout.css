@@ -1,0 +1,73 @@
+.top_panel {
+	height: 100px;
+}
+
+.middle_panel {
+	
+}
+
+#blur_img{
+	/* The image used */
+	background-image: url("hotel.jpg");
+	/* Add the blur effect */
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+	/* Full height */
+	height: 100%;
+    width: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+    z-index: -1;
+    position: fixed;
+    top: 100px;
+    left: 0;
+}
+
+.left_panel {
+	width: 20%;
+	float: left;
+	height: 200px;
+}
+
+.center_panel {
+	width: 80%;
+	margin-left: 20%;
+}
+
+.right_panel {
+	
+}
+
+.div_logo {
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+.div_logo img {
+	width: 100%;
+}
+
+.div_name {
+	text-align: center;
+	height: 40px;
+	padding-top: 30px;
+	width: 80%;
+	float: left;
+}
+
+.div_name h1 {
+	margin: auto;
+}
+
+.div_logout {
+	float: right;
+	padding-top: 41px;
+}
+
+.hotel_details {
+	display: none;
+}
